@@ -1601,13 +1601,15 @@
   <section class="aat-hero" id="top">
     <div class="aat-hero-bg">
       <video
-        class="aat-hero-video"
-        src="https://assets.cdn.filesafe.space/HCGFK8ffPmAyOjnSFsyb/media/ea1f7cc8-5980-4a96-a9d3-74397988cdec.mp4"
-        autoplay
-        muted
-        loop
-        playsinline
-      ></video>
+  class="aat-hero-video"
+  autoplay
+  muted
+  loop
+  playsinline
+  webkit-playsinline
+>
+  <source src="https://assets.cdn.filesafe.space/HCGFK8ffPmAyOjnSFsyb/media/69bd570003c97d723b774272.mp4" type="video/mp4">
+</video>
     </div>
 
     <div class="aat-hero-overlay"></div>
