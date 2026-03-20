@@ -304,7 +304,7 @@
   .aat-hero {
     position: relative;
     overflow: hidden;
-    min-height: min(100vh, 820px);
+    min-height: min(85vh, 720px);
     display: flex;
     align-items: flex-end;
     padding: 5.5rem 0 3.5rem;
@@ -331,7 +331,7 @@
     position: absolute;
     inset: 0;
     z-index: 1;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.35) 50%, rgba(0, 0, 0, 0.5) 100%);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.32) 0%, rgba(0, 0, 0, 0.22) 50%, rgba(0, 0, 0, 0.4) 100%);
   }
 
   .aat-hero-inner {
@@ -362,7 +362,7 @@
 
   .aat-hero-headline {
     font-family: "Bebas Neue", system-ui, sans-serif;
-    font-size: clamp(3.2rem, 8vw, 5.6rem);
+    font-size: clamp(2.4rem, 6vw, 4.4rem);
     line-height: 0.9;
     letter-spacing: 0.06em;
     color: #ffffff;
@@ -372,7 +372,7 @@
 
   .aat-hero-sub {
     max-width: 460px;
-    font-size: 0.95rem;
+    font-size: 0.88rem;
     line-height: 1.6;
     color: rgba(255, 255, 255, 0.88);
     margin-bottom: 2rem;
@@ -423,7 +423,7 @@
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 1.2rem;
-    padding-top: 1.5rem;
+    padding-top: 1rem;
     border-top: 1px solid rgba(255, 255, 255, 0.18);
   }
 
@@ -451,8 +451,8 @@
     }
 
     .aat-hero {
-      padding: 3rem 0 2rem;
-      min-height: 70vh;
+      padding: 2.4rem 0 1.5rem;
+      min-height: 62vh;
     }
 
     .aat-hero-stats {
@@ -462,19 +462,19 @@
     }
 
     .aat-hero-headline {
-      font-size: clamp(2rem, 6vw, 2.8rem);
+      font-size: clamp(1.65rem, 5vw, 2.2rem);
       line-height: 1.1;
       margin-bottom: 0.8rem;
     }
 
     .aat-hero-sub {
-      font-size: 0.9rem;
-      margin-bottom: 1.5rem;
+      font-size: 0.82rem;
+      margin-bottom: 1rem;
     }
 
     .aat-hero-ctas {
       gap: 0.7rem;
-      margin-bottom: 1.5rem;
+      margin-bottom: 1rem;
     }
 
     .aat-btn-primary,
@@ -502,8 +502,8 @@
     }
 
     .aat-hero {
-      padding: 2.5rem 0 1.8rem;
-      min-height: 65vh;
+      padding: 2rem 0 1.3rem;
+      min-height: 58vh;
     }
 
     .aat-hero-topline {
@@ -519,20 +519,20 @@
     }
 
     .aat-hero-headline {
-      font-size: clamp(1.6rem, 5.5vw, 2.2rem);
+      font-size: clamp(1.35rem, 4.8vw, 1.9rem);
       line-height: 1.1;
       margin-bottom: 0.7rem;
     }
 
     .aat-hero-sub {
-      font-size: 0.82rem;
+      font-size: 0.76rem;
       line-height: 1.5;
-      margin-bottom: 1.2rem;
+      margin-bottom: 0.85rem;
     }
 
     .aat-hero-ctas {
       gap: 0.5rem;
-      margin-bottom: 1rem;
+      margin-bottom: 0.7rem;
       flex-direction: column;
     }
 
@@ -572,16 +572,16 @@
     }
 
     .aat-hero {
-      padding: 2rem 0 1.5rem;
-      min-height: 60vh;
+      padding: 1.6rem 0 1.1rem;
+      min-height: 54vh;
     }
 
     .aat-hero-headline {
-      font-size: clamp(1.4rem, 5vw, 1.8rem);
+      font-size: clamp(1.2rem, 4.2vw, 1.55rem);
     }
 
     .aat-hero-sub {
-      font-size: 0.78rem;
+      font-size: 0.72rem;
     }
 
     .aat-hero-ctas {
